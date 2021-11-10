@@ -1,0 +1,51 @@
+name: cd
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  deploy:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node: [14]
+
+    steps:
+      - uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node }}
+      
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: cache node_modules
+        id: node_modules_cache_id
+        uses: actions/cache@v2
+        with:
+          path: |
+            ~/.pnpm-store
+            node_modules
+          key: ${{ matrix.os }}-node-v${{ matrix.node }}-${{  hashFiles(format('{0}{1}', github.workspace, '/pnpm-lock.yaml')) }}
+
+      - name: install pnpm
+        run: npm i -g pnpm
+
+      - name: install
+        run: pnpm i
+
+      - name: build
+        run: pnpm build
+
+      - name: deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/main' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+
+
