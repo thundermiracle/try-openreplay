@@ -40,6 +40,8 @@ jobs:
 
       - name: build
         run: pnpm build
+        env:
+           CI: false
 
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
