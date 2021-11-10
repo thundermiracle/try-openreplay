@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/try-openreplay/static/js/main.fccb1fe9.chunk.js",
-    "main.js.map": "/try-openreplay/static/js/main.fccb1fe9.chunk.js.map",
+    "main.js": "/try-openreplay/static/js/main.7c7639f2.chunk.js",
+    "main.js.map": "/try-openreplay/static/js/main.7c7639f2.chunk.js.map",
     "runtime-main.js": "/try-openreplay/static/js/runtime-main.8fc2fc9c.js",
     "runtime-main.js.map": "/try-openreplay/static/js/runtime-main.8fc2fc9c.js.map",
-    "static/js/2.82cb0b3a.chunk.js": "/try-openreplay/static/js/2.82cb0b3a.chunk.js",
-    "static/js/2.82cb0b3a.chunk.js.map": "/try-openreplay/static/js/2.82cb0b3a.chunk.js.map",
+    "static/js/2.d2365f0c.chunk.js": "/try-openreplay/static/js/2.d2365f0c.chunk.js",
+    "static/js/2.d2365f0c.chunk.js.map": "/try-openreplay/static/js/2.d2365f0c.chunk.js.map",
     "static/js/3.2be7b6b3.chunk.js": "/try-openreplay/static/js/3.2be7b6b3.chunk.js",
     "static/js/3.2be7b6b3.chunk.js.map": "/try-openreplay/static/js/3.2be7b6b3.chunk.js.map",
     "index.html": "/try-openreplay/index.html",
-    "static/js/2.82cb0b3a.chunk.js.LICENSE.txt": "/try-openreplay/static/js/2.82cb0b3a.chunk.js.LICENSE.txt"
+    "static/js/2.d2365f0c.chunk.js.LICENSE.txt": "/try-openreplay/static/js/2.d2365f0c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8fc2fc9c.js",
-    "static/js/2.82cb0b3a.chunk.js",
-    "static/js/main.fccb1fe9.chunk.js"
+    "static/js/2.d2365f0c.chunk.js",
+    "static/js/main.7c7639f2.chunk.js"
   ]
 }
