@@ -1,8 +1,12 @@
 # Try OpenReplay's assist function
 
-## Install & Start
+## Install
 
 ```shell
 pnpm i
-pnpm start
 ```
+
+## Start
+
+1. Make a file called `.env.local` from `.env.sample`
+2. Change `your-open-replay-project-key` to your OpenReplay's Project key
