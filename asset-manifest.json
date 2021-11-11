@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/try-openreplay/static/js/main.7c7639f2.chunk.js",
-    "main.js.map": "/try-openreplay/static/js/main.7c7639f2.chunk.js.map",
+    "main.js": "/try-openreplay/static/js/main.fccb1fe9.chunk.js",
+    "main.js.map": "/try-openreplay/static/js/main.fccb1fe9.chunk.js.map",
     "runtime-main.js": "/try-openreplay/static/js/runtime-main.8fc2fc9c.js",
     "runtime-main.js.map": "/try-openreplay/static/js/runtime-main.8fc2fc9c.js.map",
     "static/js/2.d2365f0c.chunk.js": "/try-openreplay/static/js/2.d2365f0c.chunk.js",
@@ -14,6 +14,6 @@
   "entrypoints": [
     "static/js/runtime-main.8fc2fc9c.js",
     "static/js/2.d2365f0c.chunk.js",
-    "static/js/main.7c7639f2.chunk.js"
+    "static/js/main.fccb1fe9.chunk.js"
   ]
 }
