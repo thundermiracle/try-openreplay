@@ -42,6 +42,7 @@ jobs:
         run: pnpm build
         env:
            CI: false
+           REACT_APP_OPEN_REPLAY_KEY: ${{ secrets.OPEN_REPLAY_KEY }}
 
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
